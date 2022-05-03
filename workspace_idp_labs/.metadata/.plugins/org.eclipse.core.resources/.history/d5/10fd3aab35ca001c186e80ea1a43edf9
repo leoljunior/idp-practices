@@ -1,0 +1,25 @@
+package br.inatel.idplabs;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class SobreCollection_2 {
+
+	public static void main(String[] args) {
+
+		Collection<String> engenhariasAtuais = new ArrayList<>();		
+		engenhariasAtuais.add("Telecom");
+		engenhariasAtuais.add("Biomédica");
+		engenhariasAtuais.add("Computação");
+		engenhariasAtuais.add("Software");
+		engenhariasAtuais.add("Produção");		
+		System.out.println("Engenharias Atuais: " + engenhariasAtuais);
+		
+		Collection<String> engenhariasFuturas = new ArrayList<>();
+		engenhariasFuturas.add("Mecânica");
+		engenhariasFuturas.add("Mecatrônica");
+		engenhariasFuturas.add("Robótica");
+		System.out.println("Engenharias Atuais: " + engenhariasFuturas);
+	}
+
+}

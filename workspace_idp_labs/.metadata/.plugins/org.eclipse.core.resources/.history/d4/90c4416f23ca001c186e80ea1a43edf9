@@ -1,0 +1,22 @@
+package br.inatel.idplabs;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class SobreCollection_1 {
+
+	public static void main(String[] args) {
+
+		Collection<String> colecao = new ArrayList<>();
+		
+		colecao.add("Tubarão");
+		colecao.add("Onça");
+		colecao.add("Anta");
+		colecao.add("Pantera");
+		colecao.add("Camaleão");
+		
+		System.out.println(colecao);
+		
+	}
+
+}

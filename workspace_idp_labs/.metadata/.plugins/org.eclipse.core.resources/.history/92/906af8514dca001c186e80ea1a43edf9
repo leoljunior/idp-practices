@@ -1,0 +1,32 @@
+package br.inatel.idplabs;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class SobreCollection_3 {
+
+	public static void main(String[] args) {
+
+		referenciandoColecao();
+		
+	}
+
+	private static void referenciandoColecao() {
+		Collection<String> frutas = new ArrayList<>();
+		frutas.add("Laranja");
+		frutas.add("Banana");
+		frutas.add("Melância");
+		
+		Collection<String> outras = frutas;
+		
+		System.out.println("Frutas: " + frutas);
+		System.out.println("Outras: " + outras);
+		
+		System.out.println("Invocando clear no outras: ");
+		outras.clear();
+		
+		System.out.println("Frutas: " + frutas);
+		System.out.println("Outras: " + outras);
+	}
+
+}
