@@ -10,6 +10,7 @@ public class SobreList_4 {
 		List<String> listaDeMoveis = new ArrayList<>();
 		listaDeMoveis.add("Cadeira");
 
+//		Usando unmodifiableList da classe utilitária Collections
 		List<String> listaDeMoveisBloqueada = Collections.unmodifiableList(listaDeMoveis);
 
 		boolean flagMesmaInstancia = listaDeMoveis == listaDeMoveisBloqueada;
