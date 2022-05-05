@@ -11,3 +11,8 @@ public class MyRestApiApplication {
 	}
 
 }
+
+//A anotação @SpringBootApplication, susbstitui essas outras três
+//@Configuration, 
+//@EnableAutoConfiguration, 
+//@ComponentScan
